@@ -1,0 +1,110 @@
+.cartao-pokemon{
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    
+}
+
+.cartao-pokemon .cartao-topo {
+    padding: 30px 40px 0;
+    border-radius: 10px;
+    background: url(../images/pokebola.png) top center /80% no-repeat;
+    background-position-y: 10px;
+}
+
+.cartao-pokemon .nome {
+    margin-bottom: 5px;
+    
+}
+
+.cartao-pokemon .tipo, .tipo-secundario {
+    font-size: 12px;
+    background-color: #FFFFFF; 
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cartao-pokemon .detalhes {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-pokemon .cartao-imagem {
+    width: 350px;
+    height: 350px;
+}
+
+.cartao-pokemon img {
+    max-height: 100%;
+    max-width: 100%;
+    
+}
+
+.cartao-pokemon .cartao-info {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+
+.cartao-pokemon .cartao-info h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6b727a;
+}
+
+.cartao-pokemon .cartao-info .stats, .cartao-pokemon .cartao-info .habilidades {
+    padding: 0 10px;
+    width: 180px;
+}
+
+.cartao-pokemon .cartao-info .stats ul li, .cartao-pokemon .cartao-info .habilidades ul li {
+    border-bottom: 1px solid #C3C4C5;
+    padding: 0 0 4px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.cartao-pokemon.aberto {
+    display: block;
+}
+
+.tipo-fire {
+    background-color: #ce8b54;
+}
+
+.tipo-eletric {
+    background-color: #d1bb40;
+}
+
+.tipo-grass {
+    background-color: #58c093;
+}
+
+.tipo-water {
+    background-color: #2a7ba4;
+}
+
+.tipo-ghost {
+    background-color: #636291;
+}
+
+.tipo-bug {
+   background-color: #6ea351;
+}
+
+.tipo-normal {
+    background-color: #7a7478;
+}
+
+.tipo-dragon {
+    background-color: #c29246;
+}

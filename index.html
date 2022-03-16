@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/cartao.css">
+    <link rel="stylesheet" href="src/css/lista.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="src/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="pokedex">
+            <div class="cartoes-pokemon">
+                <div class="cartao-pokemon aberto tipo-eletric" id="cartao-pikachu">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Pikachu</h2>
+                            <span>#025</span>
+                        </div>
+                        <span class="tipo">eletric</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/images/pikachu.gif" alt="imagem do pikachu">
+                        </div>
+                    </div>
+                    <div class="cartao-info">
+                        <div class="stats">
+                            <h3>Base stats</h3>
+                            <ul>
+                                <li>HP: 35</li>
+                                <li>Attack: 55</li>
+                                <li>Defense: 40</li>
+                                <li>Sp. Atk: 50</li>
+                                <li>Sp. Def: 50</li>
+                                <li>Speed: 90</li>
+                                <li>Total: 320</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+                            <ul>
+                                <li>Static</li>
+                                <li>Lightning Rod</li>
+                            </ul>
+                            <br>
+                            <h3>Species</h3>
+                            <ul>
+                                <li>Mouse Pokemon</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-grass" id="cartao-bulbasaur">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Bulbasaur</h2>
+                            <span>#001</span>
+                        </div>
+                        <span class="tipo">grass</span>
+                        <span class="tipo-secundario">poison</span>
+                        <div class="cartao-imagem">
+                            <img src="src/images/bulbasaur.gif" alt="imagem do bulbasaur">
+                        </div>
+                    </div>
+                    <div class="cartao-info">
+                        <div class="stats">
+                            <h3>Base stats</h3>
+                            <ul>
+                                <li>HP: 45</li>
+                                <li>Attack: 49</li>
+                                <li>Defense: 49</li>
+                                <li>Sp. Atk: 65</li>
+                                <li>Sp. Def: 65</li>
+                                <li>Speed: 45</li>
+                                <li>Total: 318</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+                            <ul>
+                                <li>Overgrow</li>
+                                <li>Chlorophyll</li>
+                            </ul>
+                            <br>
+                            <h3>Species</h3>
+                            <ul>
+                                <li>Seed Pokemon</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-fire" id="cartao-charmander">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Charmander</h2>
+                            <span>#004</span>
+                        </div>
+                        <span class="tipo">fire</span>
+                        <div class="cartao-imagem">
+                            <img src="src/images/charmander.gif" alt="imagem do charmander">
+                        </div>
+                    </div>
+                    <div class="cartao-info">
+                        <div class="stats">
+                            <h3>Base stats</h3>
+                            <ul>
+                                <li>HP: 39</li>
+                                <li>Attack: 54</li>
+                                <li>Defense: 43</li>
+                                <li>Sp. Atk: 60</li>
+                                <li>Sp. Def: 50</li>
+                                <li>Speed: 65</li>
+                                <li>Total: 309</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+                            <ul>
+                                <li>Blaze</li>
+                                <li>Solar Power</li>
+                            </ul>
+                            <br>
+                            <h3>Species</h3>
+                            <ul>
+                                <li>Lizard Pokemon</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-water" id="cartao-gyarados">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Gyarados</h2>
+                            <span>#130</span>
+                        </div>
+                        <span class="tipo">water</span>
+                        <span class="tipo-secundario">flying</span>
+                        <div class="cartao-imagem">
+                            <img src="src/images/gyarados.gif" alt="imagem do gyarados">
+                        </div>
+                    </div>
+                    <div class="cartao-info">
+                        <div class="stats">
+                            <h3>Base stats</h3>
+                            <ul>
+                                <li>HP: 95</li>
+                                <li>Attack: 125</li>
+                                <li>Defense: 79</li>
+                                <li>Sp. Atk: 60</li>
+                                <li>Sp. Def: 100</li>
+                                <li>Speed: 81</li>
+                                <li>Total: 540</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+                            <ul>
+                                <li>Intimidate</li>
+                                <li>Moxie</li>
+                            </ul>
+                            <br>
+                            <h3>Species</h3>
+                            <ul>
+                                <li>Atrocious Pokemon</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-ghost" id="cartao-gengar">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Gengar</h2>
+                            <span>#094</span>
+                        </div>
+                        <span class="tipo">ghost</span>
+                        <span class="tipo-secundario">poison</span>
+                        <div class="cartao-imagem">
+                            <img src="src/images/gengar.gif" alt="imagem do gengar">
+                        </div>
+                    </div>
+                    <div class="cartao-info">
+                        <div class="stats">
+                            <h3>Base stats</h3>
+                            <ul>
+                                <li>HP: 60</li>
+                                <li>Attack: 65</li>
+                                <li>Defense:60</li>
+                                <li>Sp. Atk: 130</li>
+                                <li>Sp. Def: 75</li>
+                                <li>Speed: 110</li>
+                                <li>Total: 500</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+                            <ul>
+                                <li>Cursed Body</li>
+                                <li>Shadow Tag</li>
+                            </ul>
+                            <br>
+                            <h3>Species</h3>
+                            <ul>
+                                <li>Shadow Pokemon</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-dragon" id="cartao-dragonite">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Dragonite</h2>
+                            <span>#149</span>
+                        </div>
+                        <span class="tipo">dragon</span>
+                        <span class="tipo-secundario">flying</span>
+                        <div class="cartao-imagem">
+                            <img src="src/images/Dragonite.gif" alt="imagem do dragonite">
+                        </div>
+                    </div>
+                    <div class="cartao-info">
+                        <div class="stats">
+                            <h3>Base stats</h3>
+                            <ul>
+                                <li>HP: 91</li>
+                                <li>Attack: 134</li>
+                                <li>Defense: 95</li>
+                                <li>Sp. Atk: 100</li>
+                                <li>Sp. Def: 100</li>
+                                <li>Speed: 80</li>
+                                <li>Total: 600</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+                            <ul>
+                                <li>Inner Focus</li>
+                                <li>Multiscale</li>
+                            </ul>
+                            <br>
+                            <h3>Species</h3>
+                            <ul>
+                                <li>Dragon Pokemon</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cartao-pokemon tipo-bug" id="cartao-caterpie">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Caterpie</h2>
+                            <span>#010</span>
+                        </div>
+                        <span class="tipo">bug</span>
+                        <div class="cartao-imagem">
+                            <img src="src/images/caterpie.gif" alt="imagem do caterpie">
+                        </div>
+                    </div>
+                    <div class="cartao-info">
+                        <div class="stats">
+                            <h3>Base stats</h3>
+                            <ul>
+                                <li>HP: 45</li>
+                                <li>Attack: 30</li>
+                                <li>Defense: 35</li>
+                                <li>Sp. Atk: 20</li>
+                                <li>Sp. Def: 20</li>
+                                <li>Speed: 45</li>
+                                <li>Total: 195</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+                            <ul>
+                                <li>Shield Dust</li>
+                                <li>Run Away</li>
+                            </ul>
+                            <br>
+                            <h3>Species</h3>
+                            <ul>
+                                <li>Worm Pokemon</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-normal" id="cartao-chansey">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Chansey</h2>
+                            <span>#113</span>
+                        </div>
+                        <span class="tipo">normal</span>
+                        <div class="cartao-imagem">
+                            <img src="src/images/chansey.gif" alt="imagem do chansey">
+                        </div>
+                    </div>
+                    <div class="cartao-info">
+                        <div class="stats">
+                            <h3>Base stats</h3>
+                            <ul>
+                                <li>HP: 250</li>
+                                <li>Attack: 5</li>
+                                <li>Defense: 5</li>
+                                <li>Sp. Atk: 35</li>
+                                <li>Sp. Def: 105</li>
+                                <li>Speed: 50</li>
+                                <li>Total: 450</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+                            <ul>
+                                <li>Natural Cure</li>
+                                <li>Serene Grace</li>
+                            </ul>
+                            <br>
+                            <h3>Species</h3>
+                            <ul>
+                                <li>Egg Pokemon</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-grass" id="cartao-tangela">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Tangela</h2>
+                            <span>#114</span>
+                        </div>
+                        <span class="tipo">grass</span>
+                        <div class="cartao-imagem">
+                            <img src="src/images/tangela.gif" alt="imagem do tangela">
+                        </div>
+                    </div>
+                    <div class="cartao-info">
+                        <div class="stats">
+                            <h3>Base stats</h3>
+                            <ul>
+                                <li>HP: 65</li>
+                                <li>Attack: 55</li>
+                                <li>Defense: 115</li>
+                                <li>Sp. Atk: 100</li>
+                                <li>Sp. Def: 40</li>
+                                <li>Speed: 60</li>
+                                <li>Total: 435</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+                            <ul>
+                                <li>Chlorophyll</li>
+                                <li>Leaf Guard</li>
+                            </ul>
+                            <br>                            
+                            <h3>Species</h3>
+                            <ul>
+                                <li>Vine Pokemon</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-normal" id="cartao-eevee">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Eevee</h2>
+                            <span>#133</span>
+                        </div>
+                        <span class="tipo">normal</span>
+                        <div class="cartao-imagem">
+                            <img src="src/images/eevee.gif" alt="imagem do eevee">
+                        </div>
+                    </div>
+                    <div class="cartao-info">
+                        <div class="stats">
+                            <h3>Base stats</h3>
+                            <ul>
+                                <li>HP: 55</li>
+                                <li>Attack: 55</li>
+                                <li>Defense: 50</li>
+                                <li>Sp. Atk: 45</li>
+                                <li>Sp. Def: 65</li>
+                                <li>Speed: 55</li>
+                                <li>Total: 325</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+                            <ul>
+                                <li>Run Away</li>
+                                <li>Adaptability</li>
+                            </ul>
+                            <br>
+                            <h3>Species</h3>
+                            <ul>
+                                <li>Evolution Pokemon</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-normal" id="cartao-pidgey">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Pidgey</h2>
+                            <span>#016</span>
+                        </div>
+                        <span class="tipo">normal</span>
+                        <span class="tipo-secundario">flying</span>
+                        <div class="cartao-imagem">
+                            <img src="src/images/pidgey.gif" alt="imagem do Pidgey">
+                        </div>
+                    </div>
+                    <div class="cartao-info">
+                        <div class="stats">
+                            <h3>Base stats</h3>
+                            <ul>
+                                <li>HP: 40</li>
+                                <li>Attack: 45</li>
+                                <li>Defense: 40</li>
+                                <li>Sp. Atk: 35</li>
+                                <li>Sp. Def: 35</li>
+                                <li>Speed: 54</li>
+                                <li>Total: 251</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+                            <ul>
+                                <li>Keen Eye</li>
+                                <li>Tangled Feet</li>
+                            </ul>
+                            <br>
+                            <h3>Species</h3>
+                            <ul>
+                                <li>Tiny Bird Pokemon</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-normal" id="cartao-snorlax">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Snorlax</h2>
+                            <span>#143</span>
+                        </div>
+                        <span class="tipo">normal</span>
+                        <div class="cartao-imagem">
+                            <img src="src/images/snorlax.gif" alt="imagem do snorlax">
+                        </div>
+                    </div>
+                    <div class="cartao-info">
+                        <div class="stats">
+                            <h3>Base stats</h3>
+                            <ul>
+                                <li>HP: 160</li>
+                                <li>Attack: 110</li>
+                                <li>Defense: 65</li>
+                                <li>Sp. Atk: 65</li>
+                                <li>Sp. Def: 110</li>
+                                <li>Speed: 30</li>
+                                <li>Total: 540</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+                            <ul>
+                                <li>Immunity</li>
+                                <li>Thick Fat</li>
+                            </ul>
+                            <br>
+                            <h3>Species</h3>
+                            <ul>
+                                <li>Sleeping Pokemon</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-water" id="cartao-squirtle">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Squirtle</h2>
+                            <span>#007</span>
+                        </div>
+                        <span class="tipo">water</span>
+                        <div class="cartao-imagem">
+                            <img src="src/images/squirtle.gif" alt="imagem do squirtle">
+                        </div>
+                    </div>
+                    <div class="cartao-info">
+                        <div class="stats">
+                            <h3>Base stats</h3>
+                            <ul>
+                                <li>HP: 44</li>
+                                <li>Attack: 48</li>
+                                <li>Defense: 65</li>
+                                <li>Sp. Atk: 50</li>
+                                <li>Sp. Def: 64</li>
+                                <li>Speed: 43</li>
+                                <li>Total: 314</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+                            <ul>
+                                <li>Torrent</li>
+                                <li>Rain Dish</li>
+                            </ul>
+                            <br>
+                            <h3>Species</h3>
+                            <ul>
+                                <li>Tiny Turtle Pokemon</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <nav class="lista scroll">
+                <ul>
+                    <li class="pokemon ativo" id="pikachu">
+                        <img src="src/images/cabeca-pikachu.png" alt="cabeça do pikachu">
+                        <span>Pikachu</span>
+                    </li>
+                    <li class="pokemon" id="bulbasaur">
+                        <img src="src/images/cabeca-bulbasaur.png" alt="cabeça do bulbasaur">
+                        <span>Bulbasaur</span>
+                    </li>
+                    <li class="pokemon" id="charmander">
+                        <img src="src/images/cabeca-charmander.png" alt="cabeça do charmander">
+                        <span>Charmander</span>
+                    </li>
+                    <li class="pokemon" id="gyarados">
+                        <img src="src/images/cabeca-gyarados.png" alt="cabeça do gyarados">
+                        <span>Gyarados</span>
+                    </li>
+                    <li class="pokemon" id="gengar">
+                        <img src="src/images/cabeca-gengar.png" alt="cabeça do gengar">
+                        <span>Gengar</span>
+                    </li>
+                    <li class="pokemon" id="dragonite">
+                        <img src="src/images/cabeca-dragonite.png" alt="cabeça do dragonite">
+                        <span>Dragonite</span>
+                    </li>
+                    <li class="pokemon" id="caterpie">
+                        <img src="src/images/cabeca-caterpie.png" alt="cabeça do caterpie">
+                        <span>Caterpie</span>
+                    </li>
+                    <li class="pokemon" id="chansey">
+                        <img src="src/images/cabeca-chansey.png" alt="cabeça do chansey">
+                        <span>Chansey</span>
+                    </li>
+                    <li class="pokemon" id="tangela">
+                        <img src="src/images/cabeca-tangela.png" alt="cabeça do tangela">
+                        <span>Tangela</span>
+                    </li>
+                    <li class="pokemon" id="eevee">
+                        <img src="src/images/cabeca-eevee.png" alt="cabeça do eevee">
+                        <span>Eevee</span>
+                    </li>
+                    <li class="pokemon" id="pidgey">
+                        <img src="src/images/cabeca-pidgey.png" alt="cabeça do pidgey">
+                        <span>Pidgey</span>
+                    </li>
+                    <li class="pokemon" id="snorlax">
+                        <img src="src/images/cabeca-snorlax.png" alt="cabeça do snorlax">
+                        <span>Snorlax</span>
+                    </li>
+                    <li class="pokemon" id="squirtle">
+                        <img src="src/images/cabeca-squirtle.png" alt="cabeça do squirtle">
+                        <span>Squirtle</span>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
