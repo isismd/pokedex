@@ -4,7 +4,7 @@
 ![Github top language](https://img.shields.io/github/languages/top/isismd/pokedex?color=orange)
 
 ## 💭 About
-This project was developed during the **MapaDev Week 2022** in order to practice and star learning about creating applications using HTML, CSS and JavaScript. 
+This project was developed during the **MapaDev Week 2022** in order to practice and start learning about creating applications using HTML, CSS and JavaScript. 
 
 In this application, the user can consult information by clicking on the name of each Pokémon available.
 
